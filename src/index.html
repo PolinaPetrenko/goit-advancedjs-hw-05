@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-advancedjs-hw-04</title>
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script type="module" src="./main.js" defer></script>
+  </head>
+  <body>
+    <section class="gallery-section">
+      <div class="container">
+        <form class="search-form js-search-form">
+          <input
+            class="search-input js-search-input"
+            type="text"
+            name="user_query"
+            placeholder="Search images..."
+            required
+          />
+          <button class="search-btn" type="submit">Search</button>
+        </form>
+        <ul class="gallery js-gallery"></ul>
+        <span class="loader is-hidden js-loader"
+          >Loading images, please wait...</span
+        >
+        <button class="load-more-btn js-load-more-btn is-hidden" type="button">
+          Load more
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
