@@ -4,7 +4,8 @@
   "description": "goit-advancedjs-hw-05",
   "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "web-dev-server --node-resolve --open --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Polina Petrenko <ppetrenko2002@gmail.com>",
