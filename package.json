@@ -1,16 +1,18 @@
 {
   "name": "goit-advancedjs-hw-05",
-   "version": "1.0.0",
+  "version": "1.0.0",
   "description": "goit-advancedjs-hw-05",
   "main": "index.js",
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "vite"
   },
   "keywords": [],
   "author": "Polina Petrenko <ppetrenko2002@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@web/dev-server": "^0.2.1"
+    "@web/dev-server": "^0.4.6",
+    "vite": "^6.0.7"
   }
 }
