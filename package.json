@@ -1,12 +1,13 @@
 {
-  "name": "ts_courses",
+  "name": "goit-advancedjs-hw-05",
    "version": "1.0.0",
-  "description": "",
+  "description": "goit-advancedjs-hw-05",
+  "main": "index.js",
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Polina Petrenko <ppetrenko2002@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@web/dev-server": "^0.2.1"
